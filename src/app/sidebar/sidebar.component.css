@@ -1,0 +1,18 @@
+html{
+    height:100%;
+}
+
+.navbar-nav {
+    display:flex;
+    flex-direction: column; /* Cambia la dirección del menú para que sea vertical */
+}
+.navbar-nav .nav-item {
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+.navbar-nav .nav-link {
+    padding: .5rem 1rem; /* Ajusta el espaciado de los enlaces */
+}
+
+.nav-item{
+    border-radius: 0.7px;
+}

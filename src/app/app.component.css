@@ -1,0 +1,17 @@
+.sidebar-container{
+    background-color: cyan;
+    height: 100%;
+    padding-top: 20px; /* Ajusta el contenido para evitar que se superponga con la barra de navegación */
+    padding-left: 20px;
+}
+
+
+.toolbar-container{
+    background-color: yellow;
+    padding-left: 20px;
+}
+
+.touristic-places-page-container{
+    background-color: magenta;
+    height: 100%;
+}
