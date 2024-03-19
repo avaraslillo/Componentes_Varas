@@ -1,21 +1,24 @@
 <div class="main">
   <div class="row">
-    <div class="toolbar-container container-fluid">
+    <div class="toolbar-container">
       <app-toolbar></app-toolbar>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-3">
-      <div class="sidebar-container container-fluid">
-        <app-sidebar></app-sidebar>
+  <div class="h-100">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <div class="sidebar-container d-flex flex-column w-100 h-100">
+          <app-sidebar></app-sidebar>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="touristic-places-page-container d-flex flex-column w-100 h-100">
+          <app-touristic-places-page></app-touristic-places-page>
+        </div>
       </div>
     </div>
-    <div class="col-md-9">
-    <div class="touristic-places-page-container container-fluid">
-      <app-touristic-places-page></app-touristic-places-page>
-    </div>
-    </div>
-</div>
+  </div>
+
 </div>
 
 

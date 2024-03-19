@@ -3,6 +3,7 @@
     height: 100%;
     padding-top: 20px; /* Ajusta el contenido para evitar que se superponga con la barra de navegación */
     padding-left: 20px;
+    width:fit-content;
 }
 
 
@@ -14,4 +15,5 @@
 .touristic-places-page-container{
     background-color: magenta;
     height: 100%;
+    width:fit-content;
 }
